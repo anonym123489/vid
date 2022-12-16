@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: black;
+        }
+       .intro
+       {
+        font-family: 'Times New Roman', Times, serif;
+        color:white;
+        text-align: center;
+        margin-top:32px;
+       } 
+       .prank{
+        min-width:300px;
+        height: 460px;
+        background: linear-gradient(50deg ,purple,pink);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        margin-top: 58px;
+       }
+       .prank1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+       }
+       .size{
+        font-size: 56px;
+        background: linear-gradient(50deg ,purple,pink);
+        border-radius: 10px;
+       }
+    </style>
+</head>
+<body>
+    <h1 class="intro">What were you thinking of 😅</h1>
+    <div class="prank1">
+    <div class="prank">
+        <h2 class="size">😂</h2>
+    </div>
+    </div>
+<script>
+    let name
+    name=prompt("Enter your name:\n ")
+    let age
+    age=prompt("Enter your age :\n")
+    age=Number.parseInt(age)
+    alert("Welcom "+name+ " 😊"+"\n"+"Hope you like our content")
+    alert("The following content might be disturbing to you "+"⚠️⚠️")
+    let age2
+    age2=confirm("your age is above 18")
+    if(age>=18)
+    {
+        alert("You are going to watch adult content now "+ name +" 😶‍🌫️😶‍🌫️")
+    }
+
+</script>
+</body>
+</html>
